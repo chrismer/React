@@ -1,0 +1,41 @@
+/* .contador{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.sumar, .restar{
+    font-size: 1.7rem;
+    border-radius: 50%;
+    background-color: brown;
+    border: none;
+    color: whitesmoke;
+    margin: 10px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+/* .restar{
+display: flex;
+justify-content: center;
+} */
+.display{
+    font-size: 1.5rem;
+}
+
+.agregar{
+    font-size: 1.5rem;
+    background-color: white;
+    border: 2px solid #333;
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-top: 15px;
+}
+.agregar:hover{
+    border-radius: 30px;
+}
