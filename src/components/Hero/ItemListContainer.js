@@ -1,7 +1,7 @@
 import { faSmileWink } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useState } from 'react'
-import ItemCount, { ButtonOnAdd } from '../Counter/ItemCount'
+import ItemCount from '../Counter/ItemCount'
 import './ItemListContainer.css'
 import { getProducts } from '../../product'
 import ItemList from '../ItemList/ItemList'
