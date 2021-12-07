@@ -1,0 +1,45 @@
+.ItemCard{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.ItemCard__image{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ItemCard__title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ItemCard__price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: brown;
+}
+.ItemCard__price::before{
+    content: '$';
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+.ItemCard__description{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}

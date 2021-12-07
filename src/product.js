@@ -74,3 +74,11 @@ export const getProducts = ()=>{
         },1000)
     })
 }
+export const getItem = ()=>{
+    return new Promise ((resolve, reject)=>{
+        setTimeout(()=>{
+            resolve(products[0])
+            console.log(products[0])
+        },2000)
+    })
+}
