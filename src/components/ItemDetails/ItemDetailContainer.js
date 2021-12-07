@@ -4,7 +4,6 @@ import ItemDetail from './ItemDetail';
 
 
 const ItemDetailContainer = () => {
-    // const [item, setItem]= useState();
     const [product, setProduct] = useState()
 
     useEffect(()=>{
