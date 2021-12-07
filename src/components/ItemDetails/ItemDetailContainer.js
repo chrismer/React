@@ -10,6 +10,7 @@ const ItemDetailContainer = () => {
         const item = getItem()
         item.then(item =>{
             setProduct(item)
+            console.log(item);
         })
 
         return(()=>{
