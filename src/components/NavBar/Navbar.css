@@ -11,7 +11,14 @@
     font-size: 2rem;
     font-weight: 700;
 }
-
+.NavContainer .logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+.NavContainer .logo:hover{
+    color: crimson;
+}
 .navbar{
     display: flex;
 
@@ -32,3 +39,17 @@
     cursor: pointer;
 }
 
+.NavContainer .categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavContainer .categories a{
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.NavContainer .categories a:hover{
+    color: crimson;
+}

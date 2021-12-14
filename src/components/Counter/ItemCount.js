@@ -45,7 +45,7 @@ export function ButtonIncrement(props) {
   export function ButtonOnAdd(props) {
       return(
         
-          <button className='agregar' onClick={props.onClickFunc}>Agregar Productos</button>
+          <button className='agregar' onClick={props.onClickFunc}>Comprar</button>
       )
   }
 

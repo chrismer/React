@@ -5,26 +5,33 @@ import ItemCount from '../Counter/ItemCount'
 import './ItemListContainer.css'
 import { getProducts } from '../../product'
 import ItemList from '../ItemList/ItemList'
+import { useParams } from 'react-router-dom'
 
 const ItemListContainer = ({greeting}) => {
     const [products, setProducts] = useState([]);
+    const { categoryId } = useParams()
     
     useEffect(()=>{
-        const list = getProducts()
-        list.then(list =>{
-            setProducts(list)
+        getProducts(categoryId).then(item => {
+            setProducts(item)
+        }).catch(err  => {
+            console.log(err)
         })
+        // const list = getProducts()
+        // list.then(list =>{
+        //     setProducts(list)
+        // })
 
         return(()=>{
             setProducts([])
         })
-    },[])
+    },[categoryId])
 
     return (
         <div className='ItemListContainer'>
             <h1 className="greeting">{greeting}</h1>
-            <FontAwesomeIcon className="smile" icon={faSmileWink}/>
-            <ItemCount stock={10}/>
+            {/* <FontAwesomeIcon className="smile" icon={faSmileWink}/> */}
+            {/* <ItemCount stock={10}/> */}
             <ItemList products={products}/>
         </div>
     )
