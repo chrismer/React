@@ -1,6 +1,6 @@
 #Deco Home
 _Es un proyecto sobre ventas de articulos para el hogar_
-# Getting Started with Create React App
+## Comenzando 🚀
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
