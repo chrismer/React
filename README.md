@@ -3,7 +3,8 @@ _Es un proyecto sobre ventas de articulos para el hogar_
 ## Comenzando 🚀
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## Construido con 🛠️
+_React_
 ## Available Scripts
 
 In the project directory, you can run:
