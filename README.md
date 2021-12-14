@@ -1,7 +1,7 @@
 #Deco Home
 _Es un proyecto sobre ventas de articulos para el hogar_
 
-<img src='img/portada.jpg' alt='portada'/>
+<img src='https://github.com/chrismer/React/blob/main/public/img/MonaPal%C3%BA.logo.png' alt='portada'/>
 ## Comenzando 🚀
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
