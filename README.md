@@ -1,5 +1,7 @@
 #Deco Home
 _Es un proyecto sobre ventas de articulos para el hogar_
+
+<img src='img/portada.jpg' alt='portada'/>
 ## Comenzando 🚀
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
