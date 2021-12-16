@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+#Deco Home
+_Es un proyecto sobre ventas de articulos para el hogar_
+
+<img src='https://github.com/chrismer/React/blob/main/public/img/MonaPal%C3%BA.logo.png' alt='portada'/>
+## Comenzando 🚀
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Construido con 🛠️
+_React_
+
+## Autores ✒️
+
+_Los que ayudaron a realizar el proyecto_
+
+* **Chris Mer** - *Trabajo Inicial* - [chrismer](https://github.com/chrismer)
+* **Chris Mer** - *Documentación* - [chrismer](#chrisMer)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (Chris License) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Gracias Fran por el aguante 📢
+* prometo invitarte una cerveza 🍺 o un café ☕. 
 
 ## Available Scripts
 
