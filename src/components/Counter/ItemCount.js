@@ -7,7 +7,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
     const [disabled, setDisabled] = useState(false);
     let incrementCounter = () => setCounter(counter + 1);
     let decrementCounter = () => setCounter(counter - 1);
-    // const OnAdd = ()=> alert('Se seleccionaron ' + counter + ' producto/s')
+    const OnAdd = ()=> alert('Se seleccionaron ' + counter + ' producto/s')
     if(counter<=1) {
       decrementCounter = () => setDisabled(disabled, true);
     }
@@ -20,7 +20,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
             <ButtonDecrement onClickFunc={decrementCounter}/>
             <Display message={counter}/> 
             <ButtonIncrement onClickFunc={incrementCounter}/>
-            <ButtonOnAdd />
+            <ButtonOnAdd onClickFunc={onAdd} onClick={()=> console.log('agregando...')}/>
         </div>
         
     )
