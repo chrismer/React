@@ -14,11 +14,6 @@ const ItemDetailContainer = () => {
         }).catch(err  => {
             console.log(err)
         })
-        // const item = getItem()
-        // item.then(item =>{
-        //     setProduct(item)
-        //     console.log(item);
-        // })
 
         return(()=>{
             setProduct()

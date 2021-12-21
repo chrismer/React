@@ -4,11 +4,13 @@ import ItemDetailContainer from './components/ItemDetails/ItemDetailContainer';
 import Navbar from './components/NavBar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import ItemCount from './components/Counter/ItemCount';
+import { CartContext } from './context/CartContext';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <CartContext>
       <Navbar />
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
@@ -18,6 +20,7 @@ function App() {
         {/* <ItemListContainer greeting='Hola Coder'/>
         <ItemDetailContainer /> */}
       </Routes>
+      </CartContext>
       </BrowserRouter>
     </div>
   )

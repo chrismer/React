@@ -20,7 +20,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
             <ButtonDecrement onClickFunc={decrementCounter}/>
             <Display message={counter}/> 
             <ButtonIncrement onClickFunc={incrementCounter}/>
-            <ButtonOnAdd onClickFunc={onAdd} onClick={()=> console.log('agregando...')}/>
+            <ButtonOnAdd onClickFunc={onAdd}/>
         </div>
         
     )
