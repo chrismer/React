@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>    
             <div className="icons">
                 <FontAwesomeIcon icon={faUser} />
-                <CartWidget />
+                <Link to='/cart'><CartWidget /></Link>
             </div>
         </nav>
     )
