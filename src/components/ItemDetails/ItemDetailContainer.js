@@ -7,10 +7,12 @@ import { getProductById } from '../../product';
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState()
     const {paramId} = useParams();
+    const [loading, setLoading] = useState(true);
 
     useEffect(()=>{
         getProductById(paramId).then(item => {
             setProduct(item)
+            setLoading(false)
         }).catch(err  => {
             console.log(err)
         })
@@ -22,7 +24,7 @@ const ItemDetailContainer = () => {
 
     return (
         <div>
-            <ItemDetail product={product}/>
+            {loading ? <h1>loading</h1> : <ItemDetail product={product}/>}
         </div>
     )
 }
